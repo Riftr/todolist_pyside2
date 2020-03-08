@@ -53,7 +53,7 @@ class Ui_MainWindow(object):
     # setupUi
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Test Editor", None))
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Todolist PySide2", None))
         self.deleteButton.setText(QCoreApplication.translate("MainWindow", u"Delete", None))
         self.addButton.setText(QCoreApplication.translate("MainWindow", u"Add Todo", None))
         self.completeButton.setText(QCoreApplication.translate("MainWindow", u"Complete", None))
